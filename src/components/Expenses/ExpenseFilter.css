@@ -1,0 +1,19 @@
+.expense-filter{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.9);
+    padding:.2rem 1rem;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.expense-filter-select{
+   flex-basis: 15%;
+   height: 30px;
+   border-radius: 5px;
+   font:inherit;
+   font-size: .9rem;
+   padding: .2rem;
+   font-weight: 600;
+   text-align: center;
+}

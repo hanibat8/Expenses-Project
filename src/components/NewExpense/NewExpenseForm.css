@@ -1,0 +1,36 @@
+.new-expense-form{
+    margin: 2rem auto;
+    background-color: rgb(156, 126, 231);
+    width: 55%;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+    font: inherit;
+}
+
+.new-expense-form label{
+    width: 100%;
+    border-radius: 20px;
+    font-weight: 900;
+}
+
+.new-expense-form input{
+    margin-top: .5rem;
+    width: 100%;
+    height: 70%;
+}
+
+.new-expense-form button{
+    width: 45%;
+    grid-row: 3/4;
+    grid-column: 2/-1;
+    margin-left: auto;
+    border-radius: 10px;
+    border: none;
+    background-color: #44296c;
+    color: #fff;
+    font: inherit;
+}

@@ -1,0 +1,23 @@
+.expense-item{
+    background-color: #3f3f3f;
+    border-radius: 20px;
+    padding:.8rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.expense-item-heading{
+   color: rgba(255, 255, 255, 0.9);
+   margin-right: auto;
+}
+
+.expense-item-amount{
+    border: 1px solid  rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: #44296c;
+    color: rgba(255, 255, 255, 0.9);
+    padding:.2rem 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
